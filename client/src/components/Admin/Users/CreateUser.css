@@ -1,0 +1,40 @@
+.User_input_wrapper{
+    display: flex;
+    flex-direction: column;
+    padding:5px 30px;
+}
+
+.User_input_wrapper label{
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.User_input_wrapper .input_field{
+    padding: 13px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px;
+    outline: none;
+    border:none;
+}
+.User_input_wrapper .input_field_textarea{
+    padding: 13px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px;
+    height:70px;
+}
+.User_input_wrapper .User__input_btn{
+    padding: 13px;
+    color: #fff;
+    background-color: #24ccda;
+    width: 131px;
+    border: none;
+    border-radius: 11px;
+    font-weight: 400;
+    font-size: 19px;
+}
+.User_input_wrapper .User__input_btn:hover{
+    transform:scale(0.9);
+    color: #fff;
+    background-color: #111;
+    cursor:pointer;
+}

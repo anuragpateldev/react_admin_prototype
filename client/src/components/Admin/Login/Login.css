@@ -1,0 +1,177 @@
+.login__wrapper{
+    display: flex;
+    background-color: transparent;
+    width:100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login__wrapper::before{
+    content:'';
+    background: url('../../../img/bgap.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.4;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+.login_div{
+    width:45%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_div img{
+    margin:20px 0px;
+    width:50px;
+    height:50px;
+}
+
+.login__form{
+    background: #fff;
+    margin:20px;
+    padding:20px 30px;
+    border-radius: 10px;;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+    background: transparent;
+}
+.login__input_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:12px;
+}
+.login__input_wrapper input{
+    padding:16px;
+    border-radius: 3px;;
+    border:1px solid #111;
+    background: transparent;
+}
+.login__input_wrapper input::placeholder {
+    font-size: 17px;
+    font-weight: 400;
+}
+.login__input_wrapper a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0a66c2;
+}
+.login__input_wrapper .login{
+    background: #0a66c2;
+    border-radius: 31px;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.login__input_wrapper .login:hover{
+    background-color: #25507a;
+    cursor:pointer;
+}
+.login__input_wrapper .login__with_google{
+    background: transparent;
+    border-radius: 31px;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0a66c2;
+    border:1px solid #0a66c2;
+}
+.login__with_google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login__with_google:hover{
+    cursor:pointer;
+    transform: scale(.99);
+}
+
+.login__input_wrapper label,.login__input_wrapper p{
+    color:#a19696;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+
+.login__input_wrapper p{
+    font-size:13px;
+}
+
+.login__input_wrapper p a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #0a66c2;
+}
+.login__or{
+    position: relative;
+    display: flex;
+    top:0px;
+    left:center;
+    justify-content: center;
+
+}
+.login__or::before{
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 23px;
+    width: 40%;
+    height: 2px;
+    background: #eee;
+}
+.login__or::after{
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 23px;
+    width: 40%;
+    height: 2px;
+    background: #eee;
+}
+.login__input_wrappers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__input_wrappers a{
+    margin-left:10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #0a66c2;
+}
+.login__input_wrappers a:hover{
+    margin-left:10px;
+    font-weight: 500;
+    color: #0a66c2;
+    text-decoration: underline;
+}
+
+.login__input_wrapper h3{
+    font-size: 30px;
+    font-size:400;
+}
+
+.login__input_wrapper .desc{
+    font-size: 15px;
+    color: #111;
+    font-weight: 400;
+}
+.err_field{
+    font-weight: bold;
+    color:red;
+}

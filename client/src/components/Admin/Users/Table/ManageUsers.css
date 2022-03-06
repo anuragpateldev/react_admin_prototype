@@ -1,0 +1,12 @@
+.React__table{
+    width: 98%;
+    border-collapse: collapse;
+    margin:0 auto;
+    
+}
+.React__table tr,th,td{
+    padding:8px;
+    border:1px solid #f7f5f5;
+    margin:10px;
+    text-align: center;
+}

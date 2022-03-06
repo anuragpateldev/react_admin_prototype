@@ -1,0 +1,28 @@
+.Bread__page_header{
+    display: flex;
+    width:100%;
+}
+.Bread__page_title h3 {
+    padding:10px 0 0 70px;
+}
+.Bread__page_title{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.Bread__crumbs{
+    width:100%;
+}
+#Bread__breadcrumbs {
+    display: flex;
+    justify-content: flex-start;
+    padding:10px 70px;
+    height: 70px;
+    align-items: center;
+    width:100%;
+}
+#Bread__breadcrumbs li{
+    list-style-type: none;
+    margin-right:20px;
+    display: flex;
+}

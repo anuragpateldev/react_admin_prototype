@@ -1,0 +1,33 @@
+
+.Profile_bg_img{
+    background: url('../../../../img/back_color.jpg');
+    width:90%;
+    margin:10px auto 0px;
+    height:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Profile_bg_img{
+    display: flex;
+    align-items: flex-end;
+}
+.Profile_and_title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left:100px;
+    margin-top:-90px;
+}
+.Profile_and_title img{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    border:3px solid #fff;
+}
+.Profile_and_title p{
+    color:#fff;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left:30px;
+}
